@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A02F0F3E2813863D00A48D77 /* RecipeDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02F0F3D2813863D00A48D77 /* RecipeDetailsView.swift */; };
+		A03A5EBF281FDB0C0084A3F6 /* GeoMetryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03A5EBE281FDB0C0084A3F6 /* GeoMetryReader.swift */; };
 		A050505B281521CB00BFCF3A /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A050505A281521CB00BFCF3A /* RecipeTabView.swift */; };
 		A0538B6E280D7707008A22A7 /* Recipe_List_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0538B6D280D7707008A22A7 /* Recipe_List_AppApp.swift */; };
 		A0538B70280D7707008A22A7 /* recipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0538B6F280D7707008A22A7 /* recipeListView.swift */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		A02F0F3D2813863D00A48D77 /* RecipeDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailsView.swift; sourceTree = "<group>"; };
+		A03A5EBE281FDB0C0084A3F6 /* GeoMetryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoMetryReader.swift; sourceTree = "<group>"; };
 		A050505A281521CB00BFCF3A /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
 		A0538B6A280D7707008A22A7 /* Recipe List App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe List App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0538B6D280D7707008A22A7 /* Recipe_List_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe_List_AppApp.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				A0538B6F280D7707008A22A7 /* recipeListView.swift */,
 				A02F0F3D2813863D00A48D77 /* RecipeDetailsView.swift */,
 				A050505A281521CB00BFCF3A /* RecipeTabView.swift */,
+				A03A5EBE281FDB0C0084A3F6 /* GeoMetryReader.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				A0538B70280D7707008A22A7 /* recipeListView.swift in Sources */,
 				A0538B6E280D7707008A22A7 /* Recipe_List_AppApp.swift in Sources */,
 				A0538BA6280D821B008A22A7 /* DataService.swift in Sources */,
+				A03A5EBF281FDB0C0084A3F6 /* GeoMetryReader.swift in Sources */,
 				A050505B281521CB00BFCF3A /* RecipeTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
