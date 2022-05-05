@@ -21,6 +21,7 @@
 		A0538BA1280D7CE4008A22A7 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0538BA0280D7CE4008A22A7 /* Recipe.swift */; };
 		A0538BA3280D8011008A22A7 /* RecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0538BA2280D8011008A22A7 /* RecipeViewModel.swift */; };
 		A0538BA6280D821B008A22A7 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0538BA5280D821B008A22A7 /* DataService.swift */; };
+		A057F749281FF1EB00332F14 /* RecipeFeaturedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A057F748281FF1EB00332F14 /* RecipeFeaturedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		A0538BA0280D7CE4008A22A7 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		A0538BA2280D8011008A22A7 /* RecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewModel.swift; sourceTree = "<group>"; };
 		A0538BA5280D821B008A22A7 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		A057F748281FF1EB00332F14 /* RecipeFeaturedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeFeaturedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 				A02F0F3D2813863D00A48D77 /* RecipeDetailsView.swift */,
 				A050505A281521CB00BFCF3A /* RecipeTabView.swift */,
 				A03A5EBE281FDB0C0084A3F6 /* GeoMetryReader.swift */,
+				A057F748281FF1EB00332F14 /* RecipeFeaturedView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				A0538BA1280D7CE4008A22A7 /* Recipe.swift in Sources */,
 				A0538B70280D7707008A22A7 /* recipeListView.swift in Sources */,
 				A0538B6E280D7707008A22A7 /* Recipe_List_AppApp.swift in Sources */,
+				A057F749281FF1EB00332F14 /* RecipeFeaturedView.swift in Sources */,
 				A0538BA6280D821B008A22A7 /* DataService.swift in Sources */,
 				A03A5EBF281FDB0C0084A3F6 /* GeoMetryReader.swift in Sources */,
 				A050505B281521CB00BFCF3A /* RecipeTabView.swift in Sources */,

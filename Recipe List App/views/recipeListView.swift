@@ -8,12 +8,13 @@
 import SwiftUI
 
 struct recipeListView: View {
-    @ObservedObject var recipeViewModel = RecipeViewModel();
-    
-    
+
+    @EnvironmentObject var model:RecipeViewModel
+
     var body: some View {
+        
         NavigationView{
-            List(recipeViewModel.recipes){ r in
+            List(model.recipes){ r in
                 
                 NavigationLink(
                     destination: (RecipeDetailsView(recipe: r)),
