@@ -8,33 +8,48 @@
 import SwiftUI
 
 struct recipeListView: View {
-
+    
     @EnvironmentObject var model:RecipeViewModel
-
+    
     var body: some View {
         
         NavigationView{
-            List(model.recipes){ r in
+            
+            VStack(alignment : .leading){
+                Text("All Recipes")
+                    .bold()
+                    .padding(.leading)
+                    .padding(.top,40)
+                    .font(.largeTitle)
                 
-                NavigationLink(
-                    destination: (RecipeDetailsView(recipe: r)),
-                    label:{
-                    HStack(spacing:20.0){
-                        Image(r.image).resizable().scaledToFill().frame(width: 50, height: 50, alignment: .center).clipped().cornerRadius(5)
-                        Text(r.name)
-                    }
-                })
+                ScrollView{
+                    LazyVStack(alignment : .leading){
+                        ForEach(model.recipes){ r in
+                            
+                            NavigationLink(
+                                destination: (RecipeDetailsView(recipe: r)),
+                                label:{
+                                    HStack(spacing:20.0){
+                                        Image(r.image).resizable().scaledToFill().frame(width: 50, height: 50, alignment: .center).clipped().cornerRadius(5)
+                                        Text(r.name).foregroundColor(.black)
+                                    }
+                                })
+                            
+                            
+                            
+                        }.navigationBarHidden(true)
+                    }.padding(.leading)
+                }
                 
-                
-               
-            }.navigationTitle("All Recipts")
+            }
+            
         }
-       
+        
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        recipeListView()
+        recipeListView().environmentObject(RecipeViewModel())
     }
 }
