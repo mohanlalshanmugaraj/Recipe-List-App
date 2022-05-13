@@ -8,6 +8,7 @@
 import Foundation
 class RecipeViewModel: ObservableObject{
     @Published var recipes = [Recipe]()
+    @Published var userName :String = ""
     init(){
        //create a instance of data model
         self.recipes = DataService.getLocalData()

@@ -13,7 +13,7 @@ struct recipeListView: View {
     
     var body: some View {
         
-        NavigationView{
+        NavigationView {
             
             VStack(alignment : .leading){
                 Text("All Recipes")
