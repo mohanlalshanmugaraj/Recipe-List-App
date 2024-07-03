@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Employee {
+struct EmployeeExample {
     var id: UUID
     var employeeId : String
     var name : String

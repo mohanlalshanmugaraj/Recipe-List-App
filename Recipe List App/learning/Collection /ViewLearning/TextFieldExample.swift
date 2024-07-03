@@ -17,7 +17,8 @@ struct TextFieldExample: View {
     var body: some View {
         Form {
             Section {
-                TextField("name ", text :$name ).keyboardType(.default)
+                TextField("name ", text :$name )
+                    .keyboardType(.default)
                     .focused($amountIsFocued)
                 
                 Picker("Number PercentAge",selection: $percentage){
