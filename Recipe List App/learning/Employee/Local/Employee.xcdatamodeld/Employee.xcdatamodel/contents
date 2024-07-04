@@ -6,6 +6,7 @@
         <attribute name="empName" optional="YES" attributeType="String"/>
         <attribute name="empNo" optional="YES" attributeType="String"/>
         <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="testing" optional="YES" attributeType="String"/>
         <uniquenessConstraints>
             <uniquenessConstraint>
                 <constraint value="id"/>
@@ -20,6 +21,7 @@
         <attribute name="id" optional="YES" attributeType="String"/>
         <attribute name="punch_in_dt" optional="YES" attributeType="String"/>
         <attribute name="punch_out_dt" optional="YES" attributeType="String"/>
+        <attribute name="testing" optional="YES" attributeType="String"/>
         <uniquenessConstraints>
             <uniquenessConstraint>
                 <constraint value="id"/>

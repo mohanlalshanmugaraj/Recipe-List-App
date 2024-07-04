@@ -210,6 +210,13 @@
 			path = "Toast Data";
 			sourceTree = "<group>";
 		};
+		4F752B692C357EAC0025C928 /* CoreDataModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreDataModel;
+			sourceTree = "<group>";
+		};
 		4FBD69FC2C33C67100B732BC /* Collection  */ = {
 			isa = PBXGroup;
 			children = (
@@ -226,6 +233,7 @@
 		4FBD69FD2C33C68C00B732BC /* Employee */ = {
 			isa = PBXGroup;
 			children = (
+				4F752B692C357EAC0025C928 /* CoreDataModel */,
 				4F362CC52C34136600D4BBB5 /* Local */,
 				4F362CAE2C33DFD100D4BBB5 /* employee */,
 				4FBD69FF2C33C6D700B732BC /* Login */,

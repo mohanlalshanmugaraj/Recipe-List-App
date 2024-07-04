@@ -80,7 +80,6 @@ class EmployeeViewModel : ObservableObject {
     private func saveContext(completion:@escaping (Bool,String) -> (Void)) {
           do {
               try context.save()
-              fetchItems()
               completion(true, "Employee Created")
           } catch {
               completion(false, "Error saving context: \(error.localizedDescription)")
