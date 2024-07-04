@@ -12,8 +12,9 @@ struct Recipe_List_AppApp: App {
     var body: some Scene {
         WindowGroup {
 //            RecipeTabView()
-            LoginScreen()
+//            LoginScreen()
 //            ToastScreen()
+            DepandencyInjectionBootcamp(dataSercice: ProductionDataSource(_url: URL(string : "https://jsonplaceholder.typicode.com/posts")!))
         }
     }
 }

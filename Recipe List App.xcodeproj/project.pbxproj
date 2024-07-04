@@ -19,6 +19,8 @@
 		4F362CC72C342F1F00D4BBB5 /* PunchEntryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F362CC62C342F1F00D4BBB5 /* PunchEntryModel.swift */; };
 		4F752B642C3561600025C928 /* ToastScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F752B632C3561600025C928 /* ToastScreen.swift */; };
 		4FBD6A012C33C73F00B732BC /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBD6A002C33C73F00B732BC /* LoginScreen.swift */; };
+		4FE368D82C3672A00074065A /* ProtocolsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE368D72C3672A00074065A /* ProtocolsBootcamp.swift */; };
+		4FE368DB2C367EB80074065A /* DepandencyInjectionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE368DA2C367EB80074065A /* DepandencyInjectionBootcamp.swift */; };
 		A017AD16282658FE000F5EDF /* TestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A017AD15282658FE000F5EDF /* TestingView.swift */; };
 		A02F0F3E2813863D00A48D77 /* RecipeDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02F0F3D2813863D00A48D77 /* RecipeDetailsView.swift */; };
 		A030039728239ECA009CD864 /* ExamplePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A030039628239ECA009CD864 /* ExamplePicker.swift */; };
@@ -92,6 +94,8 @@
 		4F362CC62C342F1F00D4BBB5 /* PunchEntryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunchEntryModel.swift; sourceTree = "<group>"; };
 		4F752B632C3561600025C928 /* ToastScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastScreen.swift; sourceTree = "<group>"; };
 		4FBD6A002C33C73F00B732BC /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		4FE368D72C3672A00074065A /* ProtocolsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsBootcamp.swift; sourceTree = "<group>"; };
+		4FE368DA2C367EB80074065A /* DepandencyInjectionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepandencyInjectionBootcamp.swift; sourceTree = "<group>"; };
 		A017AD15282658FE000F5EDF /* TestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingView.swift; sourceTree = "<group>"; };
 		A02F0F3D2813863D00A48D77 /* RecipeDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailsView.swift; sourceTree = "<group>"; };
 		A030039628239ECA009CD864 /* ExamplePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamplePicker.swift; sourceTree = "<group>"; };
@@ -210,16 +214,11 @@
 			path = "Toast Data";
 			sourceTree = "<group>";
 		};
-		4F752B692C357EAC0025C928 /* CoreDataModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CoreDataModel;
-			sourceTree = "<group>";
-		};
 		4FBD69FC2C33C67100B732BC /* Collection  */ = {
 			isa = PBXGroup;
 			children = (
+				4FE368D92C367DF60074065A /* depandency Injection */,
+				4FE368D62C3671DE0074065A /* protocols */,
 				A0FBBC2F282A655600C5478F /* ApiCall */,
 				A0FBBC2C282A522200C5478F /* AppStorage */,
 				A0FBBC25282A3B4100C5478F /* Environment */,
@@ -233,7 +232,6 @@
 		4FBD69FD2C33C68C00B732BC /* Employee */ = {
 			isa = PBXGroup;
 			children = (
-				4F752B692C357EAC0025C928 /* CoreDataModel */,
 				4F362CC52C34136600D4BBB5 /* Local */,
 				4F362CAE2C33DFD100D4BBB5 /* employee */,
 				4FBD69FF2C33C6D700B732BC /* Login */,
@@ -260,6 +258,22 @@
 				4F362CAC2C33D9C100D4BBB5 /* LoginViewModel.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		4FE368D62C3671DE0074065A /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4FE368D72C3672A00074065A /* ProtocolsBootcamp.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		4FE368D92C367DF60074065A /* depandency Injection */ = {
+			isa = PBXGroup;
+			children = (
+				4FE368DA2C367EB80074065A /* DepandencyInjectionBootcamp.swift */,
+			);
+			path = "depandency Injection";
 			sourceTree = "<group>";
 		};
 		A04E2BF6282B760000726B00 /* ViewLearning */ = {
@@ -614,6 +628,7 @@
 				4F362CAD2C33D9C100D4BBB5 /* LoginViewModel.swift in Sources */,
 				4F362CB92C33E74100D4BBB5 /* EmployeePunchIn.swift in Sources */,
 				A0FBBC27282A3B7200C5478F /* EnvironmentObjectExample1.swift in Sources */,
+				4FE368DB2C367EB80074065A /* DepandencyInjectionBootcamp.swift in Sources */,
 				4F362CB72C33E72800D4BBB5 /* EmployeeSummery.swift in Sources */,
 				A06FA6AF282A74CB00043EC5 /* CommentsRow.swift in Sources */,
 				4F362CC02C34071000D4BBB5 /* Employee.xcdatamodeld in Sources */,
@@ -621,6 +636,7 @@
 				4F752B642C3561600025C928 /* ToastScreen.swift in Sources */,
 				A017AD16282658FE000F5EDF /* TestingView.swift in Sources */,
 				A0ADB76F28279F440088DC01 /* PunchInOut.swift in Sources */,
+				4FE368D82C3672A00074065A /* ProtocolsBootcamp.swift in Sources */,
 				4F362CB22C33E62E00D4BBB5 /* EmployeeViewModel.swift in Sources */,
 				A0ADB76B28279F040088DC01 /* EmployeeView.swift in Sources */,
 				A0538BA1280D7CE4008A22A7 /* Recipe.swift in Sources */,
