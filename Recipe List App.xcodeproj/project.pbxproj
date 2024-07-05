@@ -18,9 +18,14 @@
 		4F362CC42C34135F00D4BBB5 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F362CC32C34135F00D4BBB5 /* PersistenceController.swift */; };
 		4F362CC72C342F1F00D4BBB5 /* PunchEntryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F362CC62C342F1F00D4BBB5 /* PunchEntryModel.swift */; };
 		4F752B642C3561600025C928 /* ToastScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F752B632C3561600025C928 /* ToastScreen.swift */; };
+		4FAE8A502C36CDC900FE1F07 /* NewMockDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAE8A4F2C36CDC900FE1F07 /* NewMockDataService.swift */; };
+		4FAE8A522C36CE1C00FE1F07 /* NewMockDataService_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAE8A512C36CE1C00FE1F07 /* NewMockDataService_Tests.swift */; };
 		4FBD6A012C33C73F00B732BC /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBD6A002C33C73F00B732BC /* LoginScreen.swift */; };
 		4FE368D82C3672A00074065A /* ProtocolsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE368D72C3672A00074065A /* ProtocolsBootcamp.swift */; };
 		4FE368DB2C367EB80074065A /* DepandencyInjectionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE368DA2C367EB80074065A /* DepandencyInjectionBootcamp.swift */; };
+		4FE368DE2C369E300074065A /* UnitTestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE368DD2C369E300074065A /* UnitTestingView.swift */; };
+		4FE368E02C369FFD0074065A /* UnitTestingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE368DF2C369FFD0074065A /* UnitTestingViewModel.swift */; };
+		4FE368E22C36A1AD0074065A /* UnitTestingViewModel_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE368E12C36A1AD0074065A /* UnitTestingViewModel_Tests.swift */; };
 		A017AD16282658FE000F5EDF /* TestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A017AD15282658FE000F5EDF /* TestingView.swift */; };
 		A02F0F3E2813863D00A48D77 /* RecipeDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02F0F3D2813863D00A48D77 /* RecipeDetailsView.swift */; };
 		A030039728239ECA009CD864 /* ExamplePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A030039628239ECA009CD864 /* ExamplePicker.swift */; };
@@ -93,9 +98,14 @@
 		4F362CC32C34135F00D4BBB5 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 		4F362CC62C342F1F00D4BBB5 /* PunchEntryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunchEntryModel.swift; sourceTree = "<group>"; };
 		4F752B632C3561600025C928 /* ToastScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastScreen.swift; sourceTree = "<group>"; };
+		4FAE8A4F2C36CDC900FE1F07 /* NewMockDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMockDataService.swift; sourceTree = "<group>"; };
+		4FAE8A512C36CE1C00FE1F07 /* NewMockDataService_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMockDataService_Tests.swift; sourceTree = "<group>"; };
 		4FBD6A002C33C73F00B732BC /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		4FE368D72C3672A00074065A /* ProtocolsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsBootcamp.swift; sourceTree = "<group>"; };
 		4FE368DA2C367EB80074065A /* DepandencyInjectionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepandencyInjectionBootcamp.swift; sourceTree = "<group>"; };
+		4FE368DD2C369E300074065A /* UnitTestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingView.swift; sourceTree = "<group>"; };
+		4FE368DF2C369FFD0074065A /* UnitTestingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingViewModel.swift; sourceTree = "<group>"; };
+		4FE368E12C36A1AD0074065A /* UnitTestingViewModel_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingViewModel_Tests.swift; sourceTree = "<group>"; };
 		A017AD15282658FE000F5EDF /* TestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingView.swift; sourceTree = "<group>"; };
 		A02F0F3D2813863D00A48D77 /* RecipeDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailsView.swift; sourceTree = "<group>"; };
 		A030039628239ECA009CD864 /* ExamplePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamplePicker.swift; sourceTree = "<group>"; };
@@ -217,6 +227,8 @@
 		4FBD69FC2C33C67100B732BC /* Collection  */ = {
 			isa = PBXGroup;
 			children = (
+				4FE368DC2C369DF00074065A /* Unit Testing */,
+				4F752B622C3561360025C928 /* Toast Data */,
 				4FE368D92C367DF60074065A /* depandency Injection */,
 				4FE368D62C3671DE0074065A /* protocols */,
 				A0FBBC2F282A655600C5478F /* ApiCall */,
@@ -276,6 +288,16 @@
 			path = "depandency Injection";
 			sourceTree = "<group>";
 		};
+		4FE368DC2C369DF00074065A /* Unit Testing */ = {
+			isa = PBXGroup;
+			children = (
+				4FE368DD2C369E300074065A /* UnitTestingView.swift */,
+				4FE368DF2C369FFD0074065A /* UnitTestingViewModel.swift */,
+				4FAE8A4F2C36CDC900FE1F07 /* NewMockDataService.swift */,
+			);
+			path = "Unit Testing";
+			sourceTree = "<group>";
+		};
 		A04E2BF6282B760000726B00 /* ViewLearning */ = {
 			isa = PBXGroup;
 			children = (
@@ -333,6 +355,8 @@
 			isa = PBXGroup;
 			children = (
 				A0538B7E280D770C008A22A7 /* Recipe_List_AppTests.swift */,
+				4FE368E12C36A1AD0074065A /* UnitTestingViewModel_Tests.swift */,
+				4FAE8A512C36CE1C00FE1F07 /* NewMockDataService_Tests.swift */,
 			);
 			path = "Recipe List AppTests";
 			sourceTree = "<group>";
@@ -423,7 +447,6 @@
 		A0FBBC1A282A245600C5478F /* learning */ = {
 			isa = PBXGroup;
 			children = (
-				4F752B622C3561360025C928 /* Toast Data */,
 				4FBD69FE2C33C6A200B732BC /* Recipe List */,
 				4FBD69FD2C33C68C00B732BC /* Employee */,
 				4FBD69FC2C33C67100B732BC /* Collection  */,
@@ -640,6 +663,8 @@
 				4F362CB22C33E62E00D4BBB5 /* EmployeeViewModel.swift in Sources */,
 				A0ADB76B28279F040088DC01 /* EmployeeView.swift in Sources */,
 				A0538BA1280D7CE4008A22A7 /* Recipe.swift in Sources */,
+				4FE368DE2C369E300074065A /* UnitTestingView.swift in Sources */,
+				4FE368E02C369FFD0074065A /* UnitTestingViewModel.swift in Sources */,
 				A06FA6B5282A7F1400043EC5 /* ApiRounter.swift in Sources */,
 				A0FBBC35282A683200C5478F /* CommentsModel.swift in Sources */,
 				A0538B70280D7707008A22A7 /* recipeListView.swift in Sources */,
@@ -656,6 +681,7 @@
 				A0FBBC31282A657900C5478F /* ApiCallExample.swift in Sources */,
 				A0FBBC3B282A6AD500C5478F /* CommentsViewService.swift in Sources */,
 				A04E2BFB282B7C9000726B00 /* TextFieldExample.swift in Sources */,
+				4FAE8A502C36CDC900FE1F07 /* NewMockDataService.swift in Sources */,
 				A0ADB76D28279F2A0088DC01 /* Employee.swift in Sources */,
 				A0538BA6280D821B008A22A7 /* DataService.swift in Sources */,
 				A04E2BFD282B8B8600726B00 /* ColorAndFramesView.swift in Sources */,
@@ -670,7 +696,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FE368E22C36A1AD0074065A /* UnitTestingViewModel_Tests.swift in Sources */,
 				A0538B7F280D770C008A22A7 /* Recipe_List_AppTests.swift in Sources */,
+				4FAE8A522C36CE1C00FE1F07 /* NewMockDataService_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
